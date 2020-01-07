@@ -51,6 +51,14 @@
                 <img class="user-nav_img" src="images/C.png" alt="картинка проекты">
             </section>
         </section>
+        <section>
+            <div class="background_title"><h3 class="news_title">Новости</h3></div>
+            <ul class="long news_background">
+                <% rows.forEach(function(row){ %>
+                    <li class="news_form"><%= row.text_member %></li>
+                <% });%>
+            </ul>
+        </section>
 
 
     </main>

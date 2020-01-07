@@ -12,7 +12,7 @@ router.get('/:userId', function(req, res, next) {
   	host:'localhost', 
   	user:'root',
   	password: '1',
-  	database: 'iq_server'
+  	database: 'iqserver'
   });
   connection.connect();
   var sql = 'SELECT * FROM user WHERE id = ' + req.params.userId;
@@ -22,11 +22,9 @@ router.get('/:userId', function(req, res, next) {
   	    connection.end();
   	} else {
   		connection.end();
-  		console.log(rows);
-  		res.render('personal', { name: rows[0].name, surname: rows[0].surname, birthdate: rows[0].birthdate.toLocaleDateString('en-GB'), e_mail: rows[0].e_mail, phone: rows[0].phone || 'Номер телефона'});
+  		res.render('personal', { name: rows[0].name, surname: rows[0].surname, birthdate: rows[0].date.toLocaleDateString('en-GB'), e_mail: rows[0].e_mail, phone: rows[0].phone || 'Номер телефона'});
   	}
   });
-  
 });
 
 module.exports = router;
