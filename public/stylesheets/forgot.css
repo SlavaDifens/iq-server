@@ -1,0 +1,56 @@
+body{
+    background: url("../img/a.png");
+}
+
+.recovery_section{
+    background-color: white;
+    border-radius: 50px;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 96px;
+    padding-top: 70px;
+}
+
+.recovery_item{
+    border: 2px solid #433F3F;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 15px;
+    width: 600px;
+}
+.style_item{
+    margin-top: 50px;
+}
+
+.buttons a{
+
+    margin-left: 400px;
+}
+.title_title{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    color: #433F3F;
+    letter-spacing: 0.02em;
+}
+
+.login_item a{
+    border: 2px solid #433F3F;
+    border-radius: 20px;
+    padding: 15px;
+    width: 300px;
+
+}
+
+.title_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: 100px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/register.css">
+</head>
+<body>
+<header class="main-header fullsize-container">
+        <ul class="main-nav_list">
+            <li class="main-nav_item"><a href="/">Главная</a></li>
+            <li class="main-nav_item"><a href="#">О нас</a></li>
+            <li class="main-nav_item"><a href="#">Сервис</a></li>
+            <li class="main-nav_item"><a href="/projects">Проекты</a></li>
+            <li class="main-nav_item"><a href="#">Контакты</a></li>
+
+        </ul>
+        <div class="header-content_wrapper">
+            <div class="page-type_status">
+                <a href="/login"><img class="page-type_img" src="images/0.png" alt=""></a>
+            </div>
+            <div class="additional-nav_dropdown">
+                <img class="additional-nav_img" src="images/9.png" alt="">
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="rega_section">
+        <div class="text"><h1>Регистрация</h1>
+        </div>
+        <form class="rega_form" method="POST">
+            <input type="text" name="firstname" class = "rega-main_block" placeholder="Ваше Имя" autocomplete="off">
+            <input type="text" name="secondname" class="rega-main_block" placeholder="Ваша Фамилия" autocomplete="off">
+            <div class="date_title"><p>Ваша дата рождения</p></div>
+            <div class="simple-fields">
+                <input type="text" name="day" class="rega-simple_block" placeholder="День" autocomplete="off">
+                <input type="text" name="month" class = "rega-simple_block" placeholder="Месяц" autocomplete="off">
+                <input type="text" name="year" class="rega-simple_block" placeholder="Год" autocomplete="off">
+            </div>
+            <input type="email" name="email" class="rega-main_block" placeholder="E-mail" autocomplete="off">
+            <div class="number_title"><p>Номер телефона</p></div>
+            <div class="simple-fields">
+                <input type="tel" name="tel" class="rega-main_block" list="tel-list" placeholder="+7-(900) 123-45-67" autocomplete="off" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+            </div>
+            <input type="password" name="password" class = "rega-main_block" placeholder="Придумайте пароль" autocomplete="off">
+            <input type="password" name="repeat_password" class="rega-main_block" placeholder ="Повторите пароль" autocomplete="off">
+            <div class="input_block">
+                <button class="login-input" type="submit">Зарегестрироваться</button>
+            </div>
+        </form>
+    </section>
+</main>
+<footer
+        class="main-footer background-container">
+    <section class="logo_block">
+        <img src="images/logo-footer.png" alt="">
+    </section>
+    <section class="footer-links_section">
+
+        <div class="about-assoc_block">
+            <h3>Об ассоциации </h3>
+            <ul>
+                <li><a href="#">Наши партнёры</a></li>
+                <li><a href="#">Реквизиты</a></li>
+                <li><a href="#">Карта сайта</a></li>
+            </ul>
+        </div>
+        <div class="for-members_block">
+            <h3>Участникам</h3>
+            <ul>
+                <li><a href="#">Даты заездов</a> </li>
+                <li> <a href="#">Проживание</a> </li>
+                <li> <a href="/payment">Оплачивание</a>    </li>
+                <li><a href="#">Обучение</a></li>
+
+            </ul>
+        </div>
+        <div class="contacts_block">
+            <h3>Контактные</h3>
+            <ul>
+                <li>Базайская ул,353 Красноярск</li>
+                <li>svmaslova.ru</li>
+                <li>+7 391 251-10-91, +7 391 251-10-77</li>
+            </ul>
+        </div>
+    </section>
+    <section class="socials_section">
+        <ul>
+            <li> <a href="#">Viber</a></li>
+            <li><a href="#">VK</a></li>
+            <li><a href="#">Skype</a></li>
+            <li><a href="#">Twiter</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </section>
+</footer>
+</body>
+</html>

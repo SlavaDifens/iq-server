@@ -1,0 +1,115 @@
+.body, ul, h1, h2, h3  {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../images/a.png");
+}
+.rega_section{
+    background-color: white;
+    border-radius: 50px;
+    width: 800px;
+    height: 670px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.text{
+    padding-bottom:   40px;
+}
+.rega_section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #433F3F;
+    margin-bottom:20px ;
+}
+.rega_form:first-child{
+    margin-top: 50px;
+}
+
+.login-input{
+    color: #1C344C;
+}
+.rega_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin-top: 15px;*/
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 17px;
+}
+
+.rega-main_block{
+    /*width: 540px;*/
+}
+.rega-main_block, .rega-simple_block, .login-input {
+    border: 2px solid #433F3F;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+}
+.rega-simple_block{
+    margin-top: 0;
+}
+
+.simple-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rega_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+p{
+    margin: 0;
+}
+.rega_form input,
+.simple-fields {
+    width: 399px;
+    box-sizing: border-box;
+}
+
+.date_title , .number_title{
+    padding: 0;
+    font-size: 30px;
+    font-weight: normal;
+    color: #6C6868;
+    margin-top: 10px; 
+}
+.date_title{
+    margin: 10px;
+} 
+.simple-fields .rega-simple_block{
+    width: 131px;
+}
+
+.simple-fields .rega-simple_block::placeholder {
+    text-align: center;
+}
+
+.input_block .login-input {
+    background-color: #1C344C;
+    color: white;
+    width: 300px;
+}
+
+
+.your-login .reg-link {
+    background-color: #1C344C;
+}
+main{
+    padding-bottom: 200px;
+}

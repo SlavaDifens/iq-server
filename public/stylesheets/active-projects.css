@@ -1,0 +1,61 @@
+body{
+    background: url("../images/background2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+.archive_section , .title_text {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title_block{
+    width: 750px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.title_text{
+    margin-top: 15px;
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+}
+.archive_block{
+    width: 800px;
+    background: rgba(255, 255, 255, 0.5);
+    height: 1015px;
+    border-radius: 50px;
+    border: 4px solid #000000;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.archive_block ul{
+    display: flex;
+    justify-content: center;
+}
+
+.square_text{
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.square_item{
+    width: 160px;
+    height: 160px;
+    border-radius: 24px;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+}

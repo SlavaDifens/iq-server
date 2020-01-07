@@ -1,0 +1,15 @@
+.service-title_section {
+    display: flex;
+    height: 700px;
+}
+
+.service-title_section h1 {
+    margin-left: auto;
+    margin-top: 270px;
+    margin-right: 130px;
+
+    color: white;
+    font-size: 100px;
+    line-height: 40px;
+}
+

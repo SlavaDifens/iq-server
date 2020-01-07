@@ -1,0 +1,15 @@
+.page-title_section {
+    display: flex;
+    height: 700px;
+}
+
+.page-title_section h1 {
+    margin-left: auto;
+    margin-top: 270px;
+    margin-right: 170px;
+
+    color: white;
+    font-size: 100px;
+    line-height: 40px;
+}
+

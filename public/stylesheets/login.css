@@ -1,0 +1,105 @@
+body{
+    background: url("../images/a.png");
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 17px;
+
+}
+.form-section h1{
+    font-weight: normal;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(79 75 75);
+}
+
+.your-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.your-login input {
+    width: 400px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.remember_block{
+
+}
+.your-login .reg-link,
+.your-login input {
+    border-radius: 50px;
+    outline: none;
+}
+
+.your-login input:first-child {
+    margin-top: 0;
+}
+
+.your-login input[type="submit"] {
+    width: 250px;
+    padding: 8px;
+    border: 0;
+    cursor: pointer;
+    align-self: center;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+.your-login .login-input {
+    background-color: #E24919;
+
+}
+
+.reg-link {
+    background-color: #1C344C;
+    width: 234px;
+    padding: 8px;
+    border: 0;
+    cursor: pointer;
+    align-self: center;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.forgot_item,
+.reg-link{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.forgot_item {
+    color: grey;
+    font-size: 20px;
+    margin-left: 136px;
+    margin-top: 30px;
+
+}
+
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main-footer{
+    margin-top: 90px;
+}
