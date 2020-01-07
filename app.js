@@ -13,7 +13,7 @@ var personalRouter = require('./routes/personal');
 var paymentRouter = require('./routes/payment');
 var projectsRouter = require('./routes/projects');
 var activeProjectsRouter = require('./routes/activeProjects');
-
+var newsRouter = require('./routes/news');
 
 var app = express();
 
@@ -26,8 +26,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended:true}));
-console.log(path.join(__dirname, 'public'));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/personal', express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -37,6 +37,7 @@ app.use('/personal', personalRouter);
 app.use('/payment', paymentRouter);
 app.use('/projects', projectsRouter);
 app.use('/activeProjects', activeProjectsRouter);
+app.use('/news', newsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

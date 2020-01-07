@@ -1,0 +1,78 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/background2.png");
+}
+.new_background{
+    background-color: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 250px;
+}
+.new_background , .new_section{
+    width: 800px;
+    margin-left: 250px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.new_section{
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    margin-top: 10px;
+}
+.title_new{
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.message_background , .backraund_title , .new_title, .new_background , .massege{
+    border: 2px solid black;
+}
+.backraund_title , .message_background{
+    width: 100px;
+    padding-bottom: 25px;
+    border-radius: 10px 0 0 10px;
+}
+.backraund_title{
+    margin-top: 30px;
+    height: 1px;
+}
+.text_style{
+    display: flex;
+    align-items: center;
+}
+.message_title{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.padding{
+    padding-bottom: 15px;
+}
+.message_background{
+    width: 100px;
+}
+.massege{
+    width: 400px;
+    border-radius: 0 10px 10px 0;
+}
+.new_title{
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 0 10px 10px 0;
+    padding: 3px;
+    font-size: 15px;
+    height: 20px;
+}
