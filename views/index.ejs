@@ -55,7 +55,7 @@
             <div class="background_title"><h3 class="news_title">Новости</h3></div>
             <ul class="long news_background">
                 <% rows.forEach(function(row){ %>
-                    <li class="news_form"><%= row.text_member %></li>
+                    <li class="news_form news_text"><%= row.title_news %><br><br><%= row.text_member %></li>
                 <% });%>
             </ul>
         </section>

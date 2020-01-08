@@ -81,7 +81,13 @@ body {
     margin-top: 50px;
     width: 100px;
     size: auto ;
-
+}
+.news_text{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
 }
 .centr{
     display: flex;
